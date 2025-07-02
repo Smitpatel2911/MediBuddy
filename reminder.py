@@ -12,8 +12,8 @@ def check_reminders():
             med_time = row["Time"][:5]
             if now == med_time:
                 notification.notify(
-                    title = "💊 Medicine Reminder",
-                    message = f"Take {row['Dosage']} of {row['Medicine']}",
+                    title = "💊 Medibuddy Medicine Reminder⏰",
+                    message = f"It\'s {now} - Time to Take {row['Dosage']} of {row['Medicine']}",
                     timeout=10
                 )
         sleep(60)  # check every minute
