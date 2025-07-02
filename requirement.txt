@@ -1,0 +1,6 @@
+Require module to be install..
+-> pip install streamlit
+-> pip install plyer
+
+Run the command ....
+-> streamlit run app.py
