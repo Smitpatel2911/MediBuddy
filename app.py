@@ -21,6 +21,6 @@ if menu == "Add Medicine":
 elif menu == "View Schedule":
     st.dataframe(load_schedule())
 
-elif menu == "Reminder Runing":
+elif menu == "Reminder Running...":
     st.info("Reminders are running in the background... keep this tab open.")
     check_reminders()
